@@ -11,7 +11,7 @@ const tweetSchema = mongoose.Schema({
         ref: 'User',
         required: true
     },
-    likesCount: {
+    likes: {
         type: Number,
         default: 0
     }
